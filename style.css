@@ -1,0 +1,437 @@
+/*Genaral Section*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Header Section*/
+.header-section{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    
+padding: 10px;
+}
+.header{
+    width: 85%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-left{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.header-left img{
+    width: 40px;
+    height: 40px;
+}
+.nav-links{
+    margin-left: 20px;
+    
+}
+.nav-links a{
+    color: rgb(41, 38, 38);
+    font-weight: 400;
+   text-decoration: none;
+    margin-left: 40px;
+    margin-right: 20px;
+    font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.nav-links a:hover{
+    color: rgb(20, 120, 20);
+}
+.header-right{
+    width: 30%;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-right input{
+    width: 300px;
+    padding: 10px 0px 10px 50px;
+    border-radius: 20px;
+    font-size: 14px;
+    color: rgb(88, 87, 87);
+    border: none  ;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.ser{
+position: relative;
+left: 30px;
+top: 12px;
+color: rgb(88, 87, 87);
+}
+
+.header-right img{
+    font-size: 20px;
+    margin-left: 70px;
+}
+
+/*Second Header Section*/
+
+.header-section-2{
+    width: 100%;
+    padding: 10px;
+    height: 60px;
+    background-color: #0a3622;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.header-2{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+
+}
+.header-2 p{
+    color: #ebeaea;
+    line-height: 1.2;
+    font-size: 20px;
+    font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+}
+.header-2 button{
+    padding: 8px 15px;
+    border-radius: 40px;
+    border: 1px solid white;
+    background-color: rgb(0, 52, 0);
+    color: white;
+}
+
+/*Hero Section*/
+
+.hero-section{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero{
+    width: 80%;
+    height: 220px;
+    background-color: #00754a;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.hero-img{
+    width: 100px;
+}
+.hero-img img{
+    width: 100%;
+}
+.hero-text{
+    margin-left: 30px;
+    color: white;
+    
+}
+.hero-text p{
+    font-weight: 600;
+    font-size: 14px;
+    font-family: SoDoSans_Regular, Helvetica, sans-serif;
+    margin-top: 5px;
+}
+
+.hero-text h3{
+    font-weight: 700;
+    font-size: 22px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   width: 60%;
+    font-family: SoDoSans_Regular, Helvetica, sans-serif;
+    
+}
+.price{
+    margin-top: 20px;
+}
+.hero-button{
+    display: flex;
+  align-items: end;
+    margin-left: 23rem;
+    margin-top: 7rem;
+}
+.hero-button button{
+   height: 49px;
+   width: 200px;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 600;
+    background-color: #177f4f;
+    border: none;
+}
+
+/*Coffee section */
+
+.coffee{
+    width: 100%;
+    height: 200px;
+   display: flex;
+   flex-direction: column;
+   margin: auto;
+}
+
+.cof{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    text-align: center;
+}
+.cup img{
+    width: 108px;
+    height: 108px;
+    border-radius: 100px;
+}
+.coffee h2{
+    margin-left: 10%;
+    color: #1e3932;
+    font-size: 1.5rem;
+    font-family: SoDoSans_Bold, Helvetica, sans-serif !important;
+}
+.cup p{
+    font-size: 16px;
+    font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+
+
+.re-section{
+    margin-top: 2rem;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(236, 235, 235);
+
+}
+.re-section h2{
+    margin-left: 9%;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: #1e3932;
+    font-size: 1.5rem;
+    font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+    font-weight: 800;
+}
+.recommeds-section{
+ 
+    display: flex;
+    margin: auto;
+    
+}
+
+.recommeds{
+    margin: auto;
+   padding: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.recommeds h2{
+    margin-bottom: 30px;
+}
+.re-box{
+    width: 350px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.re-logo{
+    display: flex;
+}
+
+.re-logo img{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
+.re-logo span img{
+    width: 15px;
+}
+.re-logo span{
+    margin-top: -10px;
+    margin-left: 20px;
+}
+.re-logo span p{
+    margin-top: -30px;
+    font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.re-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 0px 20px;
+}
+.re-bottom button{
+    width: 100px;
+    height: 30px;
+    border-radius: 40px;
+    background-color: #00754a;
+    color: #fff;
+    border: none;
+}
+.re-bottom p{
+    margin-top: 5px;
+}
+
+
+/* world of coffee! Section*/
+
+.worldSection{
+    width: 100%;
+    height: 500px;
+    margin-top: 4rem;
+    background-color: rgb(236, 235, 235);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4rem ;
+    
+}
+.worldSection h2{
+   margin-top: 20px;
+   margin-left: 10%;
+   font-weight: 800;
+   font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+   line-height: 1.2;
+   color: #1e3932;
+}
+
+.worldtoper{
+    width: 80%;
+    height: 373px;
+    margin: auto;
+    background-color: black;
+    border-radius: 20px;
+}
+.worldtoper img:hover{
+    opacity: 0.2;
+}
+
+.worldtoper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+   
+    opacity: 0.4;
+}
+
+.worldtext{
+    position: absolute;
+    margin-top: 15rem;
+    margin-left: 5rem;
+    color: white;
+    background-color: greadiant;
+    z-index: 1;
+    
+}
+.worldtext h3{
+    font-size: 28px;
+    font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+.worldtext p{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.worldtext button{
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    font-weight: 500;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+/*Footer Section*/
+
+
+
+
+footer{
+   
+    width: 100%;
+    height: 100vh;
+    background-color: #0e382c;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 6rem;
+    color: white;
+}
+.footer1 p{
+    margin-top: 3rem;
+    font-weight: 400;
+    font-size: .88em;
+    text-decoration: none;
+    font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+    color: #fff;
+}
+.footer1 h4{
+    font-size: 18px;
+    font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+}
+.footer2{
+    display: flex;
+    flex-direction: column;
+}
+.footer1 i{
+    font-size: 30px;
+    margin-top: 2rem;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+hr{
+   width: 80%;
+margin-left: 10%;
+ background-color: rgb(255, 255, 255);
+}
+
+.footerSection{
+    padding-bottom: 3rem;
+    background-color: #0e382c;
+}
+
+
+.footerCopy{
+    width: 100%;
+    height: 70px;
+    background-color: #0e382c;
+}
+
+.copy{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.footerlinks a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+   margin-right: 10px;
+}
+
+
